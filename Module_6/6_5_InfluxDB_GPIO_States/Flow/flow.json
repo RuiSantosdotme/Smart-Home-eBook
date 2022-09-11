@@ -1,0 +1,667 @@
+[
+    {
+        "id": "d57abbd46e39b2da",
+        "type": "ui_switch",
+        "z": "dd98633c663de931",
+        "name": "",
+        "label": "GPIO 4",
+        "tooltip": "Controls GPIO 4",
+        "group": "bd3fbc4d73a442da",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 140,
+        "y": 740,
+        "wires": [
+            [
+                "894c6af599367350"
+            ]
+        ]
+    },
+    {
+        "id": "894c6af599367350",
+        "type": "mqtt out",
+        "z": "dd98633c663de931",
+        "name": "GPIO 4",
+        "topic": "esp/digital/4",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0776bdc38d698101",
+        "x": 440,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "57a64948a12f0c61",
+        "type": "ui_switch",
+        "z": "dd98633c663de931",
+        "name": "",
+        "label": "GPIO 5",
+        "tooltip": "Controls GPIO 5",
+        "group": "bd3fbc4d73a442da",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 140,
+        "y": 920,
+        "wires": [
+            [
+                "1de32f2ab4ddc86a"
+            ]
+        ]
+    },
+    {
+        "id": "1de32f2ab4ddc86a",
+        "type": "mqtt out",
+        "z": "dd98633c663de931",
+        "name": "GPIO 5",
+        "topic": "esp/digital/5",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0776bdc38d698101",
+        "x": 440,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "40eb26a9d4a3397b",
+        "type": "ui_switch",
+        "z": "dd98633c663de931",
+        "name": "",
+        "label": "GPIO 18",
+        "tooltip": "Controls GPIO 18",
+        "group": "bd3fbc4d73a442da",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 140,
+        "y": 1100,
+        "wires": [
+            [
+                "6afa163ed5ee94d8"
+            ]
+        ]
+    },
+    {
+        "id": "6afa163ed5ee94d8",
+        "type": "mqtt out",
+        "z": "dd98633c663de931",
+        "name": "GPIO 18",
+        "topic": "esp/digital/18",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0776bdc38d698101",
+        "x": 420,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "8697e6d0930f087e",
+        "type": "ui_switch",
+        "z": "dd98633c663de931",
+        "name": "",
+        "label": "GPIO 19",
+        "tooltip": "Controls GPIO 19",
+        "group": "bd3fbc4d73a442da",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 140,
+        "y": 1280,
+        "wires": [
+            [
+                "0724ee480ead9694"
+            ]
+        ]
+    },
+    {
+        "id": "0724ee480ead9694",
+        "type": "mqtt out",
+        "z": "dd98633c663de931",
+        "name": "GPIO 19",
+        "topic": "esp/digital/19",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0776bdc38d698101",
+        "x": 420,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "9821ec3dbf8be9f4",
+        "type": "function",
+        "z": "dd98633c663de931",
+        "name": "",
+        "func": "msg.payload = [{\n    state: msg.payload\n},\n{\n    device: \"ESP32\",\n    gpio: \"4\",\n    room: \"office\"\n}];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 800,
+        "wires": [
+            [
+                "241fd99b780b5632"
+            ]
+        ]
+    },
+    {
+        "id": "241fd99b780b5632",
+        "type": "influxdb out",
+        "z": "dd98633c663de931",
+        "influxdb": "bc4ab5cb2a050021",
+        "name": "",
+        "measurement": "outputs",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "s",
+        "retentionPolicyV18Flux": "",
+        "org": "RNT",
+        "bucket": "Home",
+        "x": 790,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "232c1a5160b002cc",
+        "type": "change",
+        "z": "dd98633c663de931",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 800,
+        "wires": [
+            [
+                "9821ec3dbf8be9f4"
+            ]
+        ]
+    },
+    {
+        "id": "857b3424b85a3017",
+        "type": "function",
+        "z": "dd98633c663de931",
+        "name": "",
+        "func": "msg.payload = [{\n    state: msg.payload\n},\n{\n    device: \"ESP32\",\n    gpio: \"5\",\n    room: \"office\"\n}];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 980,
+        "wires": [
+            [
+                "c0ba6209768d5174"
+            ]
+        ]
+    },
+    {
+        "id": "c0ba6209768d5174",
+        "type": "influxdb out",
+        "z": "dd98633c663de931",
+        "influxdb": "bc4ab5cb2a050021",
+        "name": "",
+        "measurement": "outputs",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "s",
+        "retentionPolicyV18Flux": "",
+        "org": "RNT",
+        "bucket": "Home",
+        "x": 790,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "d00219d7b6a5ab23",
+        "type": "change",
+        "z": "dd98633c663de931",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 980,
+        "wires": [
+            [
+                "857b3424b85a3017"
+            ]
+        ]
+    },
+    {
+        "id": "b11efd7dd68563ca",
+        "type": "function",
+        "z": "dd98633c663de931",
+        "name": "",
+        "func": "msg.payload = [{\n    state: msg.payload\n},\n{\n    device: \"ESP32\",\n    gpio: \"18\",\n    room: \"office\"\n}];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 1160,
+        "wires": [
+            [
+                "f65e86de6c7b50af"
+            ]
+        ]
+    },
+    {
+        "id": "f65e86de6c7b50af",
+        "type": "influxdb out",
+        "z": "dd98633c663de931",
+        "influxdb": "bc4ab5cb2a050021",
+        "name": "",
+        "measurement": "outputs",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "s",
+        "retentionPolicyV18Flux": "",
+        "org": "RNT",
+        "bucket": "Home",
+        "x": 790,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "b5e0daf829b5ded9",
+        "type": "change",
+        "z": "dd98633c663de931",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 1160,
+        "wires": [
+            [
+                "b11efd7dd68563ca"
+            ]
+        ]
+    },
+    {
+        "id": "d37a5b9ba82483b1",
+        "type": "function",
+        "z": "dd98633c663de931",
+        "name": "",
+        "func": "msg.payload = [{\n    state: msg.payload\n},\n{\n    device: \"ESP32\",\n    gpio: \"19\",\n    room: \"office\"\n}];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 1360,
+        "wires": [
+            [
+                "370da295dbaa1570"
+            ]
+        ]
+    },
+    {
+        "id": "370da295dbaa1570",
+        "type": "influxdb out",
+        "z": "dd98633c663de931",
+        "influxdb": "bc4ab5cb2a050021",
+        "name": "",
+        "measurement": "outputs",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "s",
+        "retentionPolicyV18Flux": "",
+        "org": "RNT",
+        "bucket": "Home",
+        "x": 790,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "927d7f29a141580f",
+        "type": "change",
+        "z": "dd98633c663de931",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 1360,
+        "wires": [
+            [
+                "d37a5b9ba82483b1"
+            ]
+        ]
+    },
+    {
+        "id": "655138f8e6dad599",
+        "type": "mqtt in",
+        "z": "dd98633c663de931",
+        "name": "",
+        "topic": "esp/digital/4",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "0776bdc38d698101",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 800,
+        "wires": [
+            [
+                "232c1a5160b002cc"
+            ]
+        ]
+    },
+    {
+        "id": "55c5dd52cdf864fe",
+        "type": "mqtt in",
+        "z": "dd98633c663de931",
+        "name": "",
+        "topic": "esp/digital/5",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "0776bdc38d698101",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 980,
+        "wires": [
+            [
+                "d00219d7b6a5ab23"
+            ]
+        ]
+    },
+    {
+        "id": "60712fb5b2750afb",
+        "type": "mqtt in",
+        "z": "dd98633c663de931",
+        "name": "",
+        "topic": "esp/digital/18",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "0776bdc38d698101",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 1160,
+        "wires": [
+            [
+                "b5e0daf829b5ded9"
+            ]
+        ]
+    },
+    {
+        "id": "f7f74fbb2a29f762",
+        "type": "mqtt in",
+        "z": "dd98633c663de931",
+        "name": "",
+        "topic": "esp/digital/19",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "0776bdc38d698101",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 1360,
+        "wires": [
+            [
+                "927d7f29a141580f"
+            ]
+        ]
+    },
+    {
+        "id": "bd3fbc4d73a442da",
+        "type": "ui_group",
+        "name": "Controls",
+        "tab": "54cd6499810dea3d",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0776bdc38d698101",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "bc4ab5cb2a050021",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "test",
+        "name": "Database",
+        "usetls": true,
+        "tls": "d50d0c9f.31e858",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": false
+    },
+    {
+        "id": "54cd6499810dea3d",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d50d0c9f.31e858",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false
+    }
+]
