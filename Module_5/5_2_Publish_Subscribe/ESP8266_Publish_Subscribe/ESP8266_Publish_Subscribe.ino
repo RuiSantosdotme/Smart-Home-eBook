@@ -171,7 +171,7 @@ void loop() {
     // Save the last time a new reading was published
     previousMillis = currentMillis;
 
-  // Publish an MQTT message on topic esp/bme680/temperature
+  // Publish an MQTT message on topic counter
   uint16_t packetIdPub1 = mqttClient.publish("counter", 1, true, String(random(0,20)).c_str());
   Serial.printf("Publishing on topic %s at QoS 1, packetId: %i", "counter", packetIdPub1);
   }
